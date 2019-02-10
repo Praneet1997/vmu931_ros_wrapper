@@ -6,4 +6,5 @@
         <param name="device_name" value="$(arg vmu931_dev)" />
         <param name="frame_id" value="$(arg vmu931_frame)" />
     </node>
+    <remap from="/vmu931/data" to="/imu0"/>
 </launch>
